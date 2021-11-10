@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fb project" preserve-order="false">
+  <test name="chrome Test" parallel="methods" thread-count="5">
+    <classes>
+      <class name="com.test.TC005">
+      		<methods>
+      				<include name="tc005"></include>
+      				<include name="tc0055"/>
+      		</methods>
+      </class>
+           <class name="com.test.TC004"/>
+           <class name="com.test.TC001"/>
+           <class name="com.test.TC002"/>
+           <class name="com.test.TC003"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
